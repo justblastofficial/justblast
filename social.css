@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .footer{
   margin: 0;
   padding: 0;
@@ -47,53 +46,3 @@ transition: 0.2s  ease-in;
   -webkit-text-fill-color: transparent;
   transform: scale(2);
 }
-=======
-.footer{
-  margin: 0;
-  padding: 0;
-  height: 20vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(45deg,#1e272e,#1e272e);
-}
-.social-buttons a{
-  padding: 20px;
-  color: #1e272e;
-  display: inline-flex;
-  text-decoration: none;
-  font-size: 40px;
-  width: 60px;
-  height: 60px;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  margin: 0 8px;
-  z-index: 1;
-}
-
-.social-buttons a::before{
-  content: "";
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  background: linear-gradient(45deg,#808e9b,#ff3f34);
-  border-radius: 50%;
-  z-index: -2;
-  transition: 0.2s  ease-in;
-}
-.social-buttons a:hover::before{
-transform: scale(0);
-}
-
-.social-buttons a i{
-transition: 0.2s  ease-in;
-}
-
-.social-buttons a:hover i{
-  background: linear-gradient(45deg,#808e9b,#ff3f34);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transform: scale(2);
-}
->>>>>>> 9ac1a2fefb4b278504d5e516fd151219520c7552
